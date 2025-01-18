@@ -37,7 +37,7 @@ const Regalos = ({ imgCbu }) => {
             display: "flex",
             flexDirection: "column",
             gap: "0.8vh",
-            width: "75%",
+            width: "80%",
             alignItems: "center",
           }}
         >
