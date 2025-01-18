@@ -56,7 +56,7 @@ function App() {
         {/*foto - 1*/}
         <Box
           sx={{
-            height: "70vh",
+            height: "85vh",
             display: "flex",
             justifyContent: "center",
             bgcolor: "#FBF8F1",
@@ -73,7 +73,7 @@ function App() {
         {/*foto - 2*/}
         <Box
           sx={{
-            height: "35vh",
+            height: "45vh",
             display: "flex",
             justifyContent: "center",
             bgcolor: "#FBF8F1",
