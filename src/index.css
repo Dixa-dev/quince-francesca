@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  
+}
+
+/* Importa la tipografía Alpha Brights */
+@font-face {
+  font-family: 'Alpha Brights'; 
+  src: url('./assets/fonts/AlphaBrights.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Usa Montserrat como fuente principal */
+body {
+  font-family: 'Montserrat', sans-serif; /* Montserrat es la fuente principal */
+  font-style: normal;
+}
+
+/* Si quieres usar Alpha Brights en algún lugar específico */
+.alpha-brights {
+  font-family: 'Alpha Brights', sans-serif;
+}
