@@ -11,7 +11,7 @@ const Footer = () => {
                   fontFamily: "Alpha Brights",
                   fontSize: "26px",
                   color: "#FBF8F1",
-                  fontWeight:"400"
+                  fontWeight:"100"
                 }}
               >
             Te espero para festejar juntos
@@ -20,7 +20,7 @@ const Footer = () => {
                   fontFamily: "Alpha Brights",
                   fontSize: "26px",
                   color: "#FBF8F1",
-                  fontWeight:"400"
+                  fontWeight:"100"
                 }}>¡ Gracias !</Typography>
 
 

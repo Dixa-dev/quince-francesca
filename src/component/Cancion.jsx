@@ -8,7 +8,7 @@ const Cancion = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        height: "30vh",
+        height: "40vh",
         justifyContent: "center",
         textAlign: "center",
         gap:"2vh"

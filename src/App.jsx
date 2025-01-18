@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Box, keyframes } from "@mui/material";
-import portada from "./img/Portada.png";
+import portada from "./img/Portada.jpeg";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme"; // Importa el theme
 import Countdown from "./component/Countdwn";

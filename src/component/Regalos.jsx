@@ -11,7 +11,7 @@ const Regalos = ({ imgCbu }) => {
     <Box
       sx={{
         bgcolor: "#8C8C8C",
-        height: "75vh",
+        height: "70vh",
       }}
     >
       <Box
