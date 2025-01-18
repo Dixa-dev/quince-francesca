@@ -25,7 +25,7 @@ const ConfirmacionAsistencia = ({ phoneNumber }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/img/icon-whatsapp.png" alt="icon-whatsApp" />
+        <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/icon-whatsapp_x5ztyg.png" alt="icon-whatsApp" />
       </a>
       
      

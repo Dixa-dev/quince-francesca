@@ -30,7 +30,7 @@ const Regalos = ({ imgCbu }) => {
         >
           REGALOS
         </Typography>
-        <img src="src/img/Gift.png" alt="gift" />
+        <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229067/Song_woyeh6.png" alt="gift" />
 
         <Box
           sx={{

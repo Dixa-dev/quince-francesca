@@ -14,7 +14,7 @@ const Cancion = () => {
         gap:"2vh"
       }}
     >
-      <img src="src\img\Song.png" alt="song" />
+      <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229067/Song_woyeh6.png" alt="song" />
       <Box sx={{ width: "85%" }}>
         <Typography
           sx={{ fontSize: "20px", fontWeight: "300", fontStyle: "normal" }}

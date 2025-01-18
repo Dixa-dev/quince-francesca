@@ -56,14 +56,14 @@ function App() {
         {/*foto - 1*/}
         <Box
           sx={{
-            height: "85vh",
+            height: "95vh",
             display: "flex",
             justifyContent: "center",
             bgcolor: "#FBF8F1",
           }}
         >
           <Box>
-            <img src="src\img\img2.png" />
+            <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229067/img2_r1hwxv.png" />
           </Box>
         </Box>
         {/*regalos*/}
@@ -79,9 +79,10 @@ function App() {
             bgcolor: "#FBF8F1",
             alignItems:"center"
           }}
+          
         >
           <Box>
-            <img src="src\img\img3.png" />
+            <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229067/img3_ij5dqk.png" />
           </Box>
         </Box>
         {/* footer*/ }
