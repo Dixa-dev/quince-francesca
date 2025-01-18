@@ -57,7 +57,7 @@ const Portada = ({ data, bounce }) => {
       sx={{
         color: "white",
         fontSize: 50,
-        marginBottom: "3vh",
+        marginBottom: "10vh",
         animation: `${bounce} 2s infinite`,
       }}
     />
