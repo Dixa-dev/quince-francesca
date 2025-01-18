@@ -1,5 +1,4 @@
 import { Box, Typography } from '@mui/material'
-import { Icon } from "@iconify/react";
 
 const DressCode = () => {
   return (
@@ -26,7 +25,7 @@ const DressCode = () => {
             <Typography sx={{ color:"#8C8C8C" ,fontSize: "24px", fontWeight: "500" }}>
               DRESS CODE
             </Typography>
-            <img src='src\img\icon-hanger.png' alt='icon-hanger'/>
+            <img src='https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/icon-hanger_lnxxbk.png' alt='icon-hanger'/>
             <Typography sx={{ color:"#8C8C8C", fontSize: "24px", fontWeight: "200" }}>
               ELEGANTE{" "}
             </Typography>
