@@ -113,7 +113,7 @@ const Regalos = ({ imgCbu }) => {
           }}
         >
          
-          <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/CBU_v88glj.png" alt="CBU" style={{ width: "100%", maxWidth: "300px" }} />
+          <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/Gift_uwq4vy.png" alt="CBU" style={{ width: "100%", maxWidth: "300px" }} />
           <Button
             onClick={handleClose}
             sx={{
