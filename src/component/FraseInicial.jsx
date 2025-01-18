@@ -14,7 +14,7 @@ const FraseInicial = () => {
             }}
           >
             <Typography
-              sx={{ fontFamily: "Montserrat", width: "85%", fontSize: "20px" }}
+              sx={{ fontFamily: "Montserrat", width: "85%", fontSize: "20px", color:"#8C8C8C" }}
             >
               ¡Te espero para compartir esta noche única, inolvidable y mágica!
             </Typography>

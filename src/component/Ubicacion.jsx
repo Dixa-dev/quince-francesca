@@ -11,7 +11,7 @@ const Ubicacion = ({data, bounce}) => {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      height: "70vh",
+      height: "65vh",
       justifyContent: "space-around",
       textAlign: "center",
     }}

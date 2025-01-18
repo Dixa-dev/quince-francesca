@@ -18,7 +18,6 @@ const db = {
   date: "2025-02-22T21:00:00",
   location: "https://maps.app.goo.gl/bJnGpusFtJhVEJ9aA",
   imgCover: portada,
-  imgs: ["src/img/img2.jpeg", "src/img/img3.jpeg"],
   imgBank: "src/img/CBU.png",
   phoneNumber: "5492216072514",
 };
