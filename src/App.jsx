@@ -12,7 +12,6 @@
   import Regalos from "./component/Regalos";
   import Cancion from "./component/Cancion";
   import Footer from "./component/Footer";
-import { HelmetProvider } from "react-helmet-async";
 
   const db = {
     name: "Francesca",
@@ -40,7 +39,7 @@ import { HelmetProvider } from "react-helmet-async";
 
     return (
       <>
-       <HelmetProvider>
+       
         {/* Aplica el theme */}
         <ThemeProvider theme={theme}>
           {" "}
@@ -91,7 +90,7 @@ import { HelmetProvider } from "react-helmet-async";
           <Footer/>
 
         </ThemeProvider>
-        </HelmetProvider>
+        
       </>
     );
   }
