@@ -30,7 +30,7 @@ const Regalos = ({ imgCbu }) => {
         >
           REGALOS
         </Typography>
-        <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229067/Song_woyeh6.png" alt="gift" />
+        <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737230331/gift_rb3wtg.png" alt="gift" />
 
         <Box
           sx={{
@@ -113,7 +113,7 @@ const Regalos = ({ imgCbu }) => {
           }}
         >
          
-          <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737230331/gift_rb3wtg.png" alt="CBU" style={{ width: "100%", maxWidth: "300px" }} />
+          <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/CBU_v88glj.png" alt="CBU" style={{ width: "100%", maxWidth: "300px" }} />
           <Button
             onClick={handleClose}
             sx={{
