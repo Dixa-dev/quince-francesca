@@ -19,7 +19,7 @@
     location: "https://maps.app.goo.gl/bJnGpusFtJhVEJ9aA",
     imgCover: portada,
     imgBank: "src/img/CBU.png",
-    phoneNumber: "5492216072514",
+    phoneNumber: "5492617113209",
   };
   const bounce = keyframes`
   0%, 20%, 50%, 80%, 100% {

@@ -24,19 +24,22 @@ const ConfirmacionAsistencia = ({ phoneNumber }) => {
       >
         ¿Venis a festejar? ¡Confirmá tu asistencia!
       </Typography>
-
-      <a
-        href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-          "¡Hola! Quiero confirmar mi asistencia <3"
-        )}`}
-        target="_blank"
-        rel="noopener noreferrer"
+      <button
+        onClick={() =>
+          window.open(
+            `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+              "¡Hola! Quiero confirmar mi asistencia <3"
+            )}`,
+            "_blank"
+          )
+        }
+        style={{ background: "none", border: "none", cursor: "pointer" }}
       >
         <img
           src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/icon-whatsapp_x5ztyg.png"
           alt="icon-whatsApp"
         />
-      </a>
+      </button>
     </Box>
   );
 };
