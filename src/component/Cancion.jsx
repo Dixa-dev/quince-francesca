@@ -23,6 +23,7 @@ const Cancion = () => {
         </Typography>
       </Box>
       <Link
+      href={"https://docs.google.com/forms/d/1CtLA3aXfxQJyHO-Q7ogSmS1nmq4T8Nk6CKNGym91_K0/edit"}
         target="_blank"
         rel="noopener noreferrer"
         sx={{ textDecoration: "none" }}
