@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography } from "@mui/material";
 
 const ConfirmacionAsistencia = ({ phoneNumber }) => {
   return (
@@ -15,20 +15,28 @@ const ConfirmacionAsistencia = ({ phoneNumber }) => {
       }}
     >
       <Typography
-        sx={{ fontSize: "24px", width: "75%", fontWeight: "500", color: "#8C8C8C" }}
+        sx={{
+          fontSize: "24px",
+          width: "75%",
+          fontWeight: "500",
+          color: "#8C8C8C",
+        }}
       >
         ¿Venis a festejar? ¡Confirmá tu asistencia!
       </Typography>
-      
-        <a
-        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent("¡Hola! Quiero confirmar mi asistencia <3")}`}
+
+      <a
+        href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+          "¡Hola! Quiero confirmar mi asistencia <3"
+        )}`}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/icon-whatsapp_x5ztyg.png" alt="icon-whatsApp" />
+        <img
+          src="https://res.cloudinary.com/dqqbiacuz/image/upload/v1737229066/icon-whatsapp_x5ztyg.png"
+          alt="icon-whatsApp"
+        />
       </a>
-      
-     
     </Box>
   );
 };
